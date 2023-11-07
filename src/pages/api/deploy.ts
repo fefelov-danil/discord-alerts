@@ -23,6 +23,6 @@ export default function handler(
         console.error('Ошибка при отправке сообщения:', error);
       });
   } else {
-    res.status(200).json({ name: 'John Doe' })
+    res.status(200).json({ test: '111' })
   }
 }
