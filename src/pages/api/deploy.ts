@@ -9,7 +9,7 @@ export default function handler(
 ) {
 
   if (req.method === 'POST') {
-    res.status(200).json(req.body)
+    res.status(200).json(req.body.message)
 
     const data = {
       content: req.body.message
